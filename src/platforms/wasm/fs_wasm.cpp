@@ -1,13 +1,6 @@
 
 #ifdef __EMSCRIPTEN__
 
-#include "fs.h"
-#include "math_macros.h"
-#include "namespace.h"
-#include "ptr.h"
-#include "str.h"
-#include "json.h"
-#include "warn.h"
 #include <map>
 #include <mutex>
 #include <vector>
@@ -17,6 +10,15 @@
 #include <emscripten/html5.h>
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
+
+#include "fs.h"
+#include "math_macros.h"
+#include "namespace.h"
+#include "ptr.h"
+#include "str.h"
+#include "json.h"
+#include "warn.h"
+
 
 FASTLED_NAMESPACE_BEGIN
 
@@ -166,10 +168,12 @@ FileDataPtr _createIfNotExists(const Str& path, size_t len) {
     return entry;
 }
 
-
-
-
 FASTLED_NAMESPACE_END
+
+
+FASTLED_USING_NAMESPACE
+
+
 
 extern "C" {
 

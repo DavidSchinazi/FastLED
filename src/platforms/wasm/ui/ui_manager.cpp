@@ -1,12 +1,16 @@
 #ifdef __EMSCRIPTEN__
 
+
+#include <sstream>
+#include <vector>
+
+#include <emscripten.h>
+
 #include "ui_manager.h"
 #include "fixed_map.h"
 #include "json.h"
 #include "namespace.h"
-#include <emscripten.h>
-#include <sstream>
-#include <vector>
+
 
 FASTLED_NAMESPACE_BEGIN
 

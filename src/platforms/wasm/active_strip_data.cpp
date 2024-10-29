@@ -2,6 +2,7 @@
 #ifdef __EMSCRIPTEN__
 
 #include <memory>
+#include <stdio.h>
 
 #include <emscripten.h>
 #include <emscripten/bind.h>
@@ -19,7 +20,7 @@
 #include "js.h"
 #include "str.h"
 #include "namespace.h"
-#include <stdio.h>
+
 
 FASTLED_NAMESPACE_BEGIN
 
