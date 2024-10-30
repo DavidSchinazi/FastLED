@@ -8,6 +8,7 @@
 #include "force_inline.h"
 #include "pixel_iterator.h"
 #include "crgb.h"
+#include "eorder.h"
 
 
 
@@ -31,7 +32,7 @@
 /// @file chipsets.h
 /// Contains the bulk of the definitions for the various LED chipsets supported.
 
-FASTLED_NAMESPACE_BEGIN
+
 
 /// @defgroup Chipsets LED Chipset Controllers
 /// Implementations of ::CLEDController classes for various led chipsets.
@@ -45,6 +46,8 @@ FASTLED_NAMESPACE_BEGIN
 #include <SoftwareSerial.h>
 
 #define HAS_PIXIE
+
+FASTLED_NAMESPACE_BEGIN
 
 /// Adafruit Pixie controller class
 /// @tparam DATA_PIN the pin to write data out on
