@@ -1,9 +1,8 @@
-#ifndef __INC_PIXELS_H
-#define __INC_PIXELS_H
-
-#include "FastLED.h"
+#pragma once
 
 #include <stdint.h>
+
+#include "FastLED.h"
 #include "lib8tion.h"
 #include "color.h"
 #include "eorder.h"
@@ -11,4 +10,3 @@
 #include "crgb.hpp"
 
 
-#endif
