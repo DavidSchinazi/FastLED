@@ -1,7 +1,7 @@
-#ifndef __INC_FL_PROGMEM_H
-#define __INC_FL_PROGMEM_H
+#pragma once
 
 #include "FastLED.h"
+#include "namespace.h"
 
 /// @file fastled_progmem.h
 /// Wrapper definitions to allow seamless use of PROGMEM in environments that have it
@@ -16,7 +16,6 @@
 /// Whether or not pgmspace.h is \#included is separately
 /// controllable by FASTLED_INCLUDE_PGMSPACE, if needed.
 
-FASTLED_NAMESPACE_BEGIN
 
 
 // This block is used for Doxygen documentation generation,
@@ -102,6 +101,3 @@ FASTLED_NAMESPACE_BEGIN
 #endif
 
 
-FASTLED_NAMESPACE_END
-
-#endif

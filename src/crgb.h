@@ -2,6 +2,7 @@
 #pragma once
 
 #include <stdint.h>
+
 #include "chsv.h"
 #include "namespace.h"
 #include "color.h"
@@ -265,7 +266,7 @@ struct CRGB {
     /// Scale down a RGB to N/256ths of its current brightness, using
     /// "plain math" dimming rules. "Plain math" dimming rules means that the low light
     /// levels may dim all the way to 100% black.
-    /// @see ::scale8
+    /// @see scale8
     FASTLED_FORCE_INLINE CRGB& nscale8 (const CRGB & scaledown );
 
     constexpr CRGB nscale8_constexpr (const CRGB scaledown ) const;

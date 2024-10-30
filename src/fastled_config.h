@@ -1,5 +1,4 @@
-#ifndef __INC_FASTLED_CONFIG_H
-#define __INC_FASTLED_CONFIG_H
+#pragma once
 
 #include "FastLED.h"
 
@@ -87,6 +86,4 @@
 #define FASTLED_NOISE_ALLOW_AVERAGE_TO_OVERFLOW 0
 #define FASTLED_INTERRUPT_RETRY_COUNT 2
 #define FASTLED_USE_GLOBAL_BRIGHTNESS 0
-#endif
-
 #endif

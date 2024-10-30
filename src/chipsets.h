@@ -1,5 +1,6 @@
-#ifndef __INC_CHIPSETS_H
-#define __INC_CHIPSETS_H
+#pragma once
+
+#include <stdint.h>
 
 #include "FastLED.h"
 #include "pixeltypes.h"
@@ -7,7 +8,7 @@
 #include "force_inline.h"
 #include "pixel_iterator.h"
 #include "crgb.h"
-#include <stdint.h>
+
 
 
 #ifndef FASTLED_CLOCKLESS_USES_NANOSECONDS
@@ -934,4 +935,3 @@ class UCS1912Controller : public ClocklessController<DATA_PIN, C_NS(250), C_NS(1
 
 FASTLED_NAMESPACE_END
 
-#endif

@@ -1,9 +1,9 @@
-#ifndef __INC_FL_DELAY_H
-#define __INC_FL_DELAY_H
+#pragma once
 
 #include "FastLED.h"
 #include "types.h"
 #include "force_inline.h"
+#include "namespace.h"
 
 /// @file fastled_delay.h
 /// Utility functions and classes for managing delay cycles
@@ -214,5 +214,3 @@ template<> FASTLED_FORCE_INLINE void delaycycles<4294966398>() {
 /// @}
 
 FASTLED_NAMESPACE_END
-
-#endif

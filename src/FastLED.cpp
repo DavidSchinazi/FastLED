@@ -2,6 +2,7 @@
 #include "FastLED.h"
 #include "singleton.h"
 #include "engine_events.h"
+#include "cled_controller.h"
 
 /// @file FastLED.cpp
 /// Central source file for FastLED, implements the CFastLED class/object

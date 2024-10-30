@@ -1,5 +1,4 @@
-#ifndef __INC_COLORPALETTES_H
-#define __INC_COLORPALETTES_H
+#pragma once
 
 #include "FastLED.h"
 #include "colorutils.h"
@@ -33,5 +32,3 @@ DECLARE_GRADIENT_PALETTE( Rainbow_gp);
 FASTLED_NAMESPACE_END
 
 /// @endcond
-
-#endif

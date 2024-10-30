@@ -1,5 +1,4 @@
-#ifndef __INC_COLORUTILS_H
-#define __INC_COLORUTILS_H
+#pragma once
 
 /// @file colorutils.h
 /// Utility functions for color fill, palettes, blending, and more
@@ -2284,5 +2283,3 @@ void   napplyGamma_video( CRGB* rgbarray, uint16_t count, float gammaR, float ga
 /// @} GammaFuncs
 
 FASTLED_NAMESPACE_END
-
-#endif

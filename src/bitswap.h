@@ -1,5 +1,4 @@
-#ifndef __INC_BITSWAP_H
-#define __INC_BITSWAP_H
+#pragma once
 
 #include "FastLED.h"
 #include "force_inline.h"
@@ -290,4 +289,4 @@ FASTLED_FORCE_INLINE void transpose8(unsigned char *A, unsigned char *B) {
 
 FASTLED_NAMESPACE_END
 
-#endif
+
