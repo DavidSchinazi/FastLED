@@ -2,8 +2,7 @@
 /// Example of a NOP/stub class to show the SPI methods required by a chipset implementation
 /// @note Example for developers. Not a functional part of the library.
 
-#ifndef __INC_FASTSPI_NOP_H
-#define __INC_FASTSPI_NOP_H
+#pragma once
 
 #if FASTLED_DOXYGEN // Guard against the arduino ide idiotically including every header file
 
@@ -68,4 +67,4 @@ public:
 FASTLED_NAMESPACE_END
 
 #endif
-#endif
+

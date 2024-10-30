@@ -2,8 +2,7 @@
 /// Example of a hardware SPI support class.
 /// @note Example for developers. Not a functional part of the library.
 
-#ifndef __INC_FASTSPI_ARM_SAM_H
-#define __INC_FASTSPI_ARM_SAM_H
+#pragma once
 
 #if FASTLED_DOXYGEN // guard against the arduino ide idiotically including every header file
 #include "FastLED.h"
@@ -98,6 +97,3 @@ public:
 FASTLED_NAMESPACE_END
 
 #endif
-
-#endif
-

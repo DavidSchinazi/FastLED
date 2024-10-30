@@ -1,8 +1,7 @@
 /// @file fastspi.h
 /// Serial peripheral interface (SPI) definitions per platform
 
-#ifndef __INC_FASTSPI_H
-#define __INC_FASTSPI_H
+#pragma once
 
 #include "FastLED.h"
 
@@ -193,5 +192,3 @@ class SPIOutput<SPI_DATA, SPI_CLOCK, SPI_SPEED> : public ArdunioCoreSPIOutput<SP
 #endif  // !defined(FASTLED_STUB_IMPL)
 
 FASTLED_NAMESPACE_END
-
-#endif

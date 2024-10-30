@@ -1,11 +1,11 @@
 /// @file fastspi_types.h
 /// Data types and constants used by SPI interfaces
 
-#ifndef __INC_FASTSPI_TYPES_H
-#define __INC_FASTSPI_TYPES_H
+#pragma once
 
 #include "FastLED.h"
 #include "force_inline.h"
+#include "namespace.h"
 
 FASTLED_NAMESPACE_BEGIN
 
@@ -41,7 +41,7 @@ public:
     /// @copybrief adjust(FASTLED_REGISTER uint8_t)
     /// @param data input byte
     /// @param scale scale value
-    /// @returns input byte rescaled using ::scale8(uint8_t, uint8_t)
+    /// @returns input byte rescaled using scale8(uint8_t, uint8_t)
     static FASTLED_FORCE_INLINE uint8_t adjust(FASTLED_REGISTER uint8_t data, FASTLED_REGISTER uint8_t scale) { return scale8(data, scale); }
 
     /// Hook called after a block of data is written to the output. 
@@ -81,4 +81,3 @@ public:
 
 FASTLED_NAMESPACE_END
 
-#endif

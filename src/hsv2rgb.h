@@ -1,5 +1,4 @@
-#ifndef __INC_HSV2RGB_H
-#define __INC_HSV2RGB_H
+#pragma once
 
 #include "FastLED.h"
 
@@ -175,4 +174,3 @@ FASTLED_NAMESPACE_END
 
 ///@} HSV2RGB
 
-#endif

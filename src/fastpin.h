@@ -1,5 +1,4 @@
-#ifndef __INC_FASTPIN_H
-#define __INC_FASTPIN_H
+#pragma once
 
 #include "FastLED.h"
 
@@ -368,5 +367,3 @@ template<uint8_t port> struct __FL_PORT_INFO {
 FASTLED_NAMESPACE_END
 
 #pragma GCC diagnostic pop
-
-#endif // __INC_FASTPIN_H

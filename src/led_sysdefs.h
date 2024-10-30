@@ -1,5 +1,10 @@
-#ifndef __INC_LED_SYSDEFS_H
-#define __INC_LED_SYSDEFS_H
+#pragma once
+
+// Arduino.h needed for convenience functions digitalPinToPort/BitMask/portOutputRegister and the pinMode methods.
+#ifdef ARDUINO
+#include <Arduino.h>  // ok include
+#endif
+
 
 #include "FastLED.h"
 
@@ -71,15 +76,7 @@
 #error "This platform isn't recognized by FastLED... yet.  See comments in FastLED/led_sysdefs.h for options."
 #endif
 
-#include "namespace.h"
-
-// Arduino.h needed for convenience functions digitalPinToPort/BitMask/portOutputRegister and the pinMode methods.
-#ifdef ARDUINO
-#include <Arduino.h>  // ok include
-#endif
 
 /// Clock cycles per microsecond. 
 /// Calculated using the F_CPU preprocessor define
 #define CLKS_PER_US (F_CPU/1000000)
-
-#endif

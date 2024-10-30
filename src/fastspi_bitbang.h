@@ -1,8 +1,7 @@
 /// @file fastspi_bitbang.h
 /// Software SPI (aka bit-banging) support
 
-#ifndef __INC_FASTSPI_BITBANG_H
-#define __INC_FASTSPI_BITBANG_H
+#pragma once
 
 #include "FastLED.h"
 
@@ -417,4 +416,3 @@ public:
 
 FASTLED_NAMESPACE_END
 
-#endif
